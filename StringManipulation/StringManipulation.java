@@ -19,5 +19,9 @@ class StringManipulation{
         }
         return a;
     }
-    public String concatSubstring(String string1, int num1, int num2, String string2)
+    public String concatSubstring(String string1, int num1, int num2, String string2){
+        String str = string1.substring(num1,num2);
+        String substring = str + string2;
+        return substring;
+    }
 }
